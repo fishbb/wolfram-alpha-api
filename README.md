@@ -1,12 +1,10 @@
-===========
-wolframalphaapi
-===========
+# wolframalphaapi
 
 wolframalphaapi is a Python wrapper for the Wolfram|Alpha APIs, mainly for Spoken Result API and Short Answers API.
 
 
-Installation
-=========
+## Installation
+
 
 With pip::
 
@@ -17,14 +15,14 @@ or easy_install::
     $ easy_install wolframalphaapi
 
 
-Dependencies
-=========
+## Dependencies
+
 
 wolframalphaapi requires the `requests <https://pypi.python.org/pypi/requests>`_ package.
 
 
-Usage
-=========
+## Usage
+
 
 In test.py, replace the key value with your Wolfram|Alpha API key, then run:
 
