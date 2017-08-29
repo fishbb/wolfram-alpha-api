@@ -1,0 +1,50 @@
+Metadata-Version: 1.0
+Name: wolframalphaapi
+Version: 0.1.0
+Summary: Python wrapper for the Wolfram|Alpha API
+Home-page: http://github.com/fishbb
+Author: Dan Lou
+Author-email: loudan@protonmail.com
+License: LICENSE.txt
+Description: 
+	===========
+        wolframalphaapi
+        ===========
+        
+        wolframalphaapi is a Python wrapper for the Wolfram|Alpha API. 
+        
+        
+        Installation
+        =========
+        
+        With pip::
+        
+            $ pip install wolframalphaapi
+        
+        or easy_install::
+        
+            $ easy_install wolframalphaapi
+        
+        
+        Dependencies
+        =========
+        
+        wolframalphaapi requires the `requests <https://pypi.python.org/pypi/requests>`_ package.
+        
+        
+        Usage
+        =========
+
+	Simply import and initialize the API with your developer key. Use spoken_results method to get result from Spoken Result API. If no result get, it will try the Short Answers API automatically. These are free to use for up to 2,000 calls per month. For speech_recognition and full_results methods, you will need to upgrade your Wolfram|Alpha API Key.
+ 
+	Example:
+
+	from waapi import waAPI
+
+	key = 'YOUR-WOLFRAMALPHA-API-KEY'
+	api = waAPI(key)
+	spoken  = api.spoken_results(i="stock price of amazon")
+	print spoken
+
+        
+Platform: UNKNOWN
