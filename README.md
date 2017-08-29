@@ -1,6 +1,6 @@
-# wolframalphaapi
+# wolfram-alpha-api
 
-wolframalphaapi is a Python wrapper for the Wolfram|Alpha APIs, mainly for Spoken Result API and Short Answers API.
+wolfram-alpha-api is a Python wrapper for the Wolfram|Alpha APIs, mainly for Spoken Result API and Short Answers API.
 
 
 ## Installation
@@ -8,17 +8,17 @@ wolframalphaapi is a Python wrapper for the Wolfram|Alpha APIs, mainly for Spoke
 
 With pip::
 
-    $ pip install wolframalphaapi
+    $ pip install wolfram-alpha-api
 
 or easy_install::
 
-    $ easy_install wolframalphaapi
+    $ easy_install wolfram-alpha-api
 
 
 ## Dependencies
 
 
-wolframalphaapi requires the `requests <https://pypi.python.org/pypi/requests>`_ package.
+wolfram-alpha-api requires the `requests <https://pypi.python.org/pypi/requests>`_ package.
 
 
 ## Usage
